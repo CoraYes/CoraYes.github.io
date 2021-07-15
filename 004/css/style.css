@@ -1,0 +1,138 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+  	background: #FFf;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+body h1,h2,h3,h4,h5,h6{
+	    font-family: 'Asap', sans-serif;
+}
+
+
+
+
+
+.about-left-grid{
+	width:70%;
+	float:right;
+    margin-right: 10em;
+	min-height:433px;
+}
+
+
+.about-left-grid p{
+    color: #666666;
+    font-size:1em;
+    line-height: 2em;
+    margin-top: 1.5em;
+} 
+.about-left-grid ul{
+	margin:3em 0 0 0;
+	padding:0;
+}
+.about-left-grid ul li{
+	display:inline-block;
+}
+
+.about-left {
+      padding: 4.5em 0 4.7em 0;
+    float: right;
+    background: #f4f4f4;
+}
+.about-left-grid ul li a {
+       padding: 0.6em 2em;
+    font-size: 1.2em;
+    color: #00a78e;
+    border: 2px solid #00a78e;
+    text-decoration: none;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+}
+.about-left-grid ul li a:hover{
+	background:#00a78e;
+	color:#FFF;
+	border-radius:1.5em;
+	-webkit-border-radius:1.5em;
+	-moz-border-radius:1.5em;
+	-o-border-radius:1.5em;
+	-ms-border-radius:1.5em;
+}
+.about-right{
+	    float: left;
+	padding:0;
+	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
+	min-height:580px;
+	background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
+}
+
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 13px;
+	height: 13px;
+	margin: 5px 0px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background:#191919;
+}
+
+.owl-carousel2 div.owl-pagination {
+    position: absolute;
+    right: 94%;
+    top: 147px;
+    z-index: 999;
+}
+.owl-carousel2 div.owl-controls .owl-page {
+	display:block;
+	zoom: 1;
+	padding:0.1em 0;
+}
+.owl-carousel2 div.owl-controls .owl-page.active span, .owl-carousel2 div.owl-controls.clickable .owl-page:hover span{
+	  
+    background: #00a78e;
+}
+
+
+
+
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.owl-carousel{
+	display: none;
+	position: relative;
+	-ms-touch-action: pan-y;
+}
+
+
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
